@@ -1,0 +1,168 @@
+*RESET css-------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*FIM RESET CSS---------------------------------*/
+
+.perfilEmpesa{
+	font-family: 'Lato', sans-serif;
+}
+.container{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.imgsServicosPerfil{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.slide_item{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.slide_item.first{
+    display: block;
+}
+
+.slide_item_desc{
+    display: flex;
+		align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0%;
+    width: inherit;
+    top: 0;
+		background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.white {
+  color: white;
+	max-width: 70%;
+}
+
+.nomeEmpresaPerfil{
+  font-size: 3em;
+  padding-bottom:30px;
+  padding-top: 20px;
+}
+
+.ramoEmpresaPerfil{
+  font-size: 1em;
+}
+.servicosEmpresaPerfil{
+  font-size: 1.5em;
+
+}
+
+.descricaoEmpresaPerfil{
+	  font-size: 1.1em;
+		text-align: center;
+		padding-top: 80px;
+		line-height: 1.5;
+
+}
+
+
+
+.contato {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  justify-content: space-between;
+  padding: 40px;
+	flex-wrap: wrap;
+}
+
+.iconContato{
+height: 60px;
+margin-right: 20px;
+}
+
+.divContato {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.dadosContato{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-width: 50%;
+
+
+}
+
+.indicacoesEmpresaDiv{
+
+}
+
+.contato {
+  background: #f1f3f5;
+}
+
+.mapa{
+  min-width: 50%;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
+
+.detalhesContato{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+}
